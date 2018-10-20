@@ -1,0 +1,109 @@
+<html>
+<head>
+	<title>D3 Tutorials</title>
+	<script src="d3.min.js"></script>
+</head>
+<body>
+
+	<script>
+	
+		var canvasWidth = 1000;
+		var canvasHeight = 500;
+		
+		d3.json("myData", function (myData) {
+			var canvas = d3.select("body")
+							.append("svg")
+							.attr("width", canvasWidth)
+							.attr("height", canvasHeight);
+			
+			var rectangle = canvas.selectAll("rect")
+								.data(myData)
+								.enter()
+								.append("rect")
+								.attr("width", function (d) { return d.age; })
+								.attr("height", 20);
+			
+		})
+		
+	
+	var sampleDataArray	=	[20, 40, 60, 80, 100];
+	var canvasWidth	=	500;
+	var canvasHeight	=	500;
+	
+	var canvasWidthScale	=	d3.scale.linear()
+									.domain([0, 100])
+									.range([0, canvasWidth]);
+	
+	var canvasColorScale	=	d3.scale.linear()
+									.domain([0, 100])
+									.range(["red", "blue"]);
+	
+	var dataArrayAxis	=	d3.svg.axis()
+								.ticks(5)
+								.scale(canvasWidthScale);
+	
+	var canvas	=	d3.select("body")
+						.append("svg")
+						.attr("width", canvasWidth)
+						.attr("height", canvasHeight)
+						.append("g")
+						.attr("transform", "translate (10, 10)");
+	
+	var barChart	=	canvas.selectAll("rect")
+							.data(sampleDataArray)
+							.enter()
+								.append("rect")
+								.attr("fill", function (d) { return canvasColorScale(d); })
+								.attr("height", 10)
+								.attr("width", function (d) { return canvasWidthScale(d); })
+								.attr("y", function (d, i) { return i * 15; });
+	
+	canvas.append("g")
+		.attr("transform", "translate (0, 100)")
+		.call(dataArrayAxis);
+	
+	//console.log(d3);
+
+
+	//Transition sample
+	var circle	=	canvas.append("circle")
+						.attr("cx", 50)
+						.attr("cy", 300)
+						.attr("r", 40)
+						.attr("fill", "red");
+						
+	var rectangle	=	canvas.append("rect")
+							.attr("x", 300)
+							.attr("y", 260)
+							.attr("width", 70)
+							.attr("height", 40)
+							.attr("fill", "blue"); */
+
+	rectangle.transition()
+		.duration(800)
+		.delay(500)
+		.attr("y", 460)
+		.transition()
+		.attr("fill", "red");
+	
+	circle.transition()
+		.duration(800)
+		.delay(1900)
+		.attr("cx", 330)
+		.transition()
+		.attr("fill", "green");	*/
+
+// Fetching data from a JSON file
+
+
+d3.json("mydata.json", function (dataIn) {
+	
+
+}
+
+
+
+	</script>
+
+</body>
+</html>

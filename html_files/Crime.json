@@ -1,0 +1,23 @@
+[
+	{"Date":"January, 2015","TP":57,"IBLP":32,"NSI":8,"SNBD":2,"DK":1},
+	{"Date":"January, 2014","TP":55,"IBLP":35,"NSI":7,"SNBD":2,"DK":1},
+	{"Date":"January, 2013","TP":55,"IBLP":33,"NSI":9,"SNBD":2,"DK":1},
+	{"Date":"January, 2012","TP":48,"IBLP":37,"NSI":11,"SNBD":2,"DK":2},
+	{"Date":"January, 2011","TP":44,"IBLP":43,"NSI":10,"SNBD":2,"DK":1},
+	{"Date":"January, 2010","TP":49,"IBLP":39,"NSI":8,"SNBD":2,"DK":2},
+	{"Date":"January, 2009","TP":46,"IBLP":41,"NSI":9,"SNBD":2,"DK":2},
+	{"Date":"January, 2008","TP":54,"IBLP":36,"NSI":7,"SNBD":1,"DK":2},
+	{"Date":"January, 2007","TP":62,"IBLP":31,"NSI":5,"SNBD":1,"DK":1},
+	{"Date":"January, 2006","TP":62,"IBLP":29,"NSI":6,"SNBD":1,"DK":2},
+	{"Date":"January, 2005","TP":53,"IBLP":39,"NSI":5,"SNBD":2,"DK":1},
+	{"Date":"January, 2004","TP":53,"IBLP":34,"NSI":9,"SNBD":2,"DK":2},
+	{"Date":"January, 2003","TP":47,"IBLP":42,"NSI":8,"SNBD":2,"DK":2},
+	{"Date":"January, 2002","TP":53,"IBLP":39,"NSI":6,"SNBD":0,"DK":2},
+	{"Date":"January, 2001","TP":76,"IBLP":19,"NSI":3,"SNBD":2,"DK":0},
+	{"Date":"January, 2000","TP":69,"IBLP":24,"NSI":4,"SNBD":1,"DK":2},
+	{"Date":"July, 1999","TP":76,"IBLP":20,"NSI":2,"SNBD":1,"DK":1},
+	{"Date":"January, 1999","TP":70,"IBLP":24,"NSI":3,"SNBD":1,"DK":2},
+	{"Date":"January, 1998","TP":71,"IBLP":25,"NSI":2,"SNBD":1,"DK":1},
+	{"Date":"January, 1997","TP":70,"IBLP":25,"NSI":3,"SNBD":2,"DK":0},
+	{"Date":"December, 1994","TP":78,"IBLP":17,"NSI":2,"SNBD":1,"DK":2}
+]
